@@ -26,11 +26,11 @@ variable "docker_image" {
 }
 
 variable "ssh_host" {
-    default = "172.31.46.195"
+    default = "52.14.114.52"
 }
 
 variable "docker_host" {
-    default = "172.31.46.195"
+    default = "52.14.114.52"
 }
 
 variable "docker_port" {
