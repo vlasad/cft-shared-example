@@ -14,7 +14,7 @@ variable "name_tag" {
 }
 
 variable "jumpbox_user" {
-    default = "root"
+    default = "ubuntu"
 }
 
 variable "root_password" {
@@ -38,7 +38,7 @@ variable "docker_port" {
 }
 
 variable "external_port" {
-    default = "44444"
+    default = "44445"
 }
 
 variable "cpu_shares" {
