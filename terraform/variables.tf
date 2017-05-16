@@ -14,7 +14,7 @@ variable "name_tag" {
 }
 
 variable "jumpbox_user" {
-    default = "ubuntu"
+    default = "root"
 }
 
 variable "root_password" {
