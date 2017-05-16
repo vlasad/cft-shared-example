@@ -1,0 +1,17 @@
+---
+id: 004_sample_app_with_spring_boot
+title: Creating a simple application with Spring Boot
+description: 'In this module we are going to create simple REST service using Spring Boot'
+steps:
+- id: 01_introduction
+  title: Introduction
+- id: 02_step1_creating_pom
+  title: Step 1. Creating the POM
+- id: 03_step2_classpath_dependencies
+  title: Step 2. Adding classpath dependencies
+- id: 04_step3_write_the_code
+  title: Step 3. Writing the code
+- id: 05_step4_run_locally
+  title: Step 4. Running the example
+- id: 06_step5_create_executable_jar
+  title: Step 5. Creating an executable JAR

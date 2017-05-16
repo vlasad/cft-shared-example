@@ -1,0 +1,20 @@
+---
+id: 008_Service_Discovery
+title: Service Discovery
+description: 'The ephemeral nature of cloud-native software means that IP addresses may change all the time. Service registries are one of the ways to solve this issue and allow distributed services to communicate with each other. In this module, we will use Netflix Eureka to implement a service registry for our sample app.'
+steps:
+- id: 01_introduction
+  title: Introduction
+- id: 02_step1_sample_usecase
+  title: Step 1. Understanding the sample use case
+- id: 03_step2_create_sample_application
+  title: Step 2. Creating sample applications
+- id: 04_step3_env_variables
+  title: Step 3. Solving the Service Discovery problem using environment variables
+- id: 05_step4_eureka_create_server
+  title: Step 4. Service Discovery with Netflix Eureka
+- id: 06_step5_register_eureka_instance
+  title: Step 5. Registering a Eureka instance
+- id: 07_step6_eureka_create_client
+  title: Step 6. Creating a Eureka client
+

@@ -1,0 +1,17 @@
+questions:
+- formulation: "Which of these commands is executed with downtime ? Why?"
+  type: option
+  options:
+  - "cf push"
+  - "cf scale"
+  answer:  [0]
+- formulation: "`manifest.yml` must be located in the ROOT folder ?"
+  type: option
+  options:
+  - "True"
+  - "False"
+  answer:  [1]
+- formulation: "How do you check how much resources (CPU, RAM, HDD) each of your application instances consumes?"
+  type: text
+  answer: 'cf app helloworld'
+

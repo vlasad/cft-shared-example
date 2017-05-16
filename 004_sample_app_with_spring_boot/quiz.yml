@@ -1,0 +1,12 @@
+questions:
+- formulation: "Spring boot characteristic"
+  type: option
+  options:
+  - "Code Generation tool which simplifies work with Spring"
+  - "Entirely avoid generating code and doing XML configuration"
+  - "Automate Spring configuration, where possible"
+  answer:  [1, 2]
+- formulation: "Command to run Spring Boot application locally using maven"
+  type: text
+  answer: 'mvn spring-boot:run'
+

@@ -1,0 +1,14 @@
+---
+id: 007_Domains_and_Routes
+title: Domains and Routes
+description: 'In this module, you will learn how to work with routes and domains in Cloud Foundry.'
+steps:
+- id: 01_introduction
+  title: Introduction
+- id: 02_step1_list_available_services
+  title: Step 1. Managing routes via the CLI
+- id: 03_step2_shared_private_domains
+  title: Step 2. Shared and private domains
+- id: 04_step3_mapping_the_route
+  title: Step 3. Mapping the route
+

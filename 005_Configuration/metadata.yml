@@ -1,0 +1,15 @@
+---
+id: 005_Configuration
+title: Configuration
+description: 'In this module, you will learn how to manage configuration of cloud-native apps in Cloud Foundry'
+steps:
+- id: 01_introduction
+  title: Introduction
+- id: 02_step1_create_manifest_yml
+  title: Step 1. Creating manifest.yml
+- id: 03_step2_deploy_app_to_cf
+  title: Step 2. Deploying an application to Cloud Foundry
+- id: 04_step3_changing_configuration
+  title: Step 3. Changing configuration
+- id: 05_step4_deploying_multiple_applications
+  title: Step 4. Deploying multiple applications

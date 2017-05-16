@@ -1,0 +1,14 @@
+---
+id: 009_Circuit_Breakers
+title: Circuit Breakers
+description: 'In this module, you will learn how to protect distributed apps from cascading failures by using circuit breakers. We will add a circuit breaker to the apps built in the previous modules and emulate some failures to see how the circuit breaker works. You will also find out how to collect metrics from circuit breakers and display them on a dashboard that can be accessed from a web browser.'
+steps:
+- id: 01_introduction
+  title: Introduction
+- id: 02_step1_sample_usecase
+  title: Step 1. Changing the sample application to use a Hystrix circuit breaker
+- id: 03_step2_run_application_in_cf
+  title: Step 2. Trying out the Hystrix circuit breaker in Cloud Foundry
+- id: 04_step3_hystrix_dashboard
+  title: Step 3. Creating a Hystrix dashboard
+

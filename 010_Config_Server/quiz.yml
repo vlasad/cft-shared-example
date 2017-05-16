@@ -1,0 +1,4 @@
+questions:
+- formulation: "How to verify if CF cli is installed locally?"
+  type: text
+  answer: 'cf --version'

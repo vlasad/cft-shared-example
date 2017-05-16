@@ -1,0 +1,4 @@
+- formulation: "How do you check which services are available in this Cloud Foundry marketplace ?"
+  type: text
+  answer: 'cf marketplace'
+

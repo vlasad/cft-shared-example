@@ -1,0 +1,16 @@
+questions:
+- formulation: "How do you view the resource quota for your current space?"
+  type: text
+  answer: 'cf space dev'
+- formulation: "All admin accounts can perform administrative actions on Cloud Controller API resources without restrictions."
+  type: option
+  options:
+  - "True"
+  - "False"
+  answer: [0]
+- formulation: "A user can only have one role per space."
+  type: option
+  options:
+  - "True"
+  - "False"
+  answer:  [1]

@@ -1,0 +1,18 @@
+---
+id: 006_Services_in_CF
+title: Services in Cloud Foundry
+description: 'In this module, you will learn how to use Cloud Foundry services with your cloud-native applications.'
+steps:
+- id: 01_introduction
+  title: Introduction
+- id: 02_step1_list_available_services
+  title: Step 1. Listing available marketplace services
+- id: 03_step2_create_service_instance
+  title: Step 2. Creating a service instance with the Cloud Foundry CLI
+- id: 04_step3_bind_serivce
+  title: Step 3. Binding a service instance to your app
+- id: 05_step4_accessing_service_from_application
+  title: Step 4. Accessing a service from your application
+- id: 06_step5_run_the_application
+  title: Step 5. Running the application
+

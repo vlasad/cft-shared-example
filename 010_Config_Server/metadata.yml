@@ -1,0 +1,14 @@
+---
+id: 010_Config_Server
+title: Config Server
+description: 'In this module, you will learn how to manage your application’s configuration externally, using a config server from the Spring Cloud Config module of Spring Cloud.'
+steps:
+- id: 01_introduction
+  title: Introduction
+- id: 02_step1_run_config_server
+  title: Step 1. Running a config server in Cloud Foundry
+- id: 03_step2_consume_config
+  title: Step 2. Consuming a configuration from a config server in a client application
+- id: 04_step3_test_application
+  title: Step 3. Testing the application
+

@@ -1,0 +1,24 @@
+---
+id: 001_Setting_up_the_local_environment
+title: Setting up the local environment and deploy a "HelloWorld" application to Cloud Foundry
+description: 'In this section, you will learn how to prepare local environment, including:
+  Java, maven, cf cli and git client. Study basic cloud foudnry CLI commands'
+steps:
+- id: introduction
+  title: Introduction
+- id: installation_java
+  title: Java installation
+- id: installation_maven
+  title: Maven installation
+- id: installation_git
+  title: Git client installation
+- id: installation_cf
+  title: CF cli installation
+- id: logging_in_to_cf
+  title: Logging in to Cloud Foundry
+- id: create_application
+  title: Creating a "HelloWorld" application
+- id: deploy_to_cf
+  title: Deploying an application to Cloud Foundry
+- id: verify
+  title: Ensuring that the application is up and running

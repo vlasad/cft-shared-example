@@ -1,0 +1,19 @@
+title: CF for for developers
+price: 1020
+description: Designed for Java developers who would like to learn how to efficiently use Cloud Foundry.
+labels:
+  for: operators
+  product: "Cloud Foundry"
+lessons:
+  - 001_Setting_up_the_local_environment
+  - 003_Orgs_spaces_roles_and_permissions
+  - 004_sample_app_with_spring_boot
+  - 005_Configuration
+  # - 006_Services_in_CF
+  - 007_Domains_and_Routes
+  - 008_Service_Discovery
+  - 009_Circuit_Breakers
+  - 010_Config_Server
+infrastructure_type: shared
+iaas_provider: amazon
+instance_flavour: m4.large

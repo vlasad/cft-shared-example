@@ -1,0 +1,25 @@
+questions:
+- formulation: "Which access level is required to create private domain:"
+  type: option
+  options:
+  - "Developer "
+  - "Space Manager"
+  - "Org Manager"
+  - "Administrator"
+  answer:  [2]
+- formulation: "Shared domains are available to users in all orgs within a deployment?"
+  type: option
+  options:
+  - "True"
+  - "False"
+  answer:  [0]
+- formulation: "Users of one space cannot create a route with an URL that already exists in another space?"
+  type: option
+  options:
+  - "True"
+  - "False"
+  answer:  [1]
+- formulation: "How do you load the list of routes available for the current user in Cloud Foundry?"
+  type: text
+  answer: 'cf routes'
+
