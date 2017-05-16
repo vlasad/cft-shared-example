@@ -26,11 +26,11 @@ variable "docker_image" {
 }
 
 variable "ssh_host" {
-    default = "52.14.114.52"
+    default = "ec2-52-14-114-52.us-east-2.compute.amazonaws.com"
 }
 
 variable "docker_host" {
-    default = "52.14.114.52"
+    default = "ec2-52-14-114-52.us-east-2.compute.amazonaws.com"
 }
 
 variable "docker_port" {
