@@ -1,11 +1,11 @@
 #!/bin/bash
 set -e
 
-cf_domain=$TF_VAR_cf_domain
-cf_admin=$TF_VAR_cf_admin
-cf_admin_password=$TF_VAR_cf_admin_password
-uuid=$TF_VAR_uuid
-owner_tag=$TF_VAR_owner_tag
+cf_domain="$1"
+cf_admin="$2"
+cf_admin_password="$3"
+owner_tag="$4"
+uuid="$5"
 
 suffix=${uuid:0:4}
 org="org-${suffix}"

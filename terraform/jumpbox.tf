@@ -26,7 +26,7 @@ resource "docker_container" "training_container" {
     }
 
     provisioner "local-exec" {
-        command = "${path.module}/scripts/local.sh"
+        command = "${path.module}/scripts/local.sh ${var.cf_domain} ${var.cf_admin} ${var.cf_admin_password} ${var.owner_tag} ${var.uuid}"
     }
 
     provisioner "file" {
