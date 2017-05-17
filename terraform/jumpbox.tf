@@ -20,7 +20,7 @@ resource "docker_container" "training_container" {
 
     connection {
         host = "${var.docker_host}"
-        port = "45444"
+        port = "${var.external_port}"
         user = "root"
         password = "${var.root_password}"
     }
