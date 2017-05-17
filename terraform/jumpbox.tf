@@ -21,8 +21,8 @@ resource "docker_container" "training_container" {
     connection {
         host = "${var.docker_host}"
         port = "${var.external_port}"
-        user = "${var.jumpbox_user}"
-        private_key = "${file("${var.platform_private_key_path}")}"
+        user = "root"
+        password = "${var.root_password}"
     }
 
     provisioner "local-exec" {
