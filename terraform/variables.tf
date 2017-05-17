@@ -38,7 +38,7 @@ variable "docker_port" {
 }
 
 variable "external_port" {
-    default = "44445"
+    default = "44446"
 }
 
 variable "cpu_shares" {
