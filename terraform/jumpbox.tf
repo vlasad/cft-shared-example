@@ -21,8 +21,8 @@ resource "docker_container" "training_container" {
     connection {
         host = "${var.docker_host}"
         port = "${var.external_port}"
-        user = "root"
-        password = "${var.root_password}"
+        user = "${var.jumpbox_user}"
+        private_key = "${file("${var.platform_private_key_path}")}"
     }
 
     provisioner "local-exec" {
@@ -30,7 +30,7 @@ resource "docker_container" "training_container" {
     }
 
     provisioner "file" {
-        source = "/home/vlasad/Work/ruby/tango/private/ssh/tango.pub"
+        source = "${var.platform_public_key_path}"
         destination = "/home/${var.jumpbox_user}/.ssh/authorized_keys"
     }
 
