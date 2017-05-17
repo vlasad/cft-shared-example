@@ -30,7 +30,7 @@ resource "docker_container" "training_container" {
     }
 
     provisioner "file" {
-        source = "${var.platform_public_key_path}"
+        source = "/home/vlasad/Work/ruby/tango/private/ssh/tango.pub"
         destination = "/home/${var.jumpbox_user}/.ssh/authorized_keys"
     }
 
