@@ -17,3 +17,5 @@ lessons:
 infrastructure_type: shared
 iaas_provider: amazon
 instance_flavour: m4.large
+generators:
+  - docker_external_port
